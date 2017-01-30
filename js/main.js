@@ -14,10 +14,19 @@ $(document).ready(function() {
 
 		$('.slick-slider').slick({
 			infinite: true,
-			autoplay: true,
+			// autoplay: true,
 			autoplaySpeed: 5000,
 			arrows: false,
 			pauseOnHover: true
+		});
+
+		$('.feedback-slider').slick({
+			infinite: true,
+			// autoplay: true,
+			autoplaySpeed: 4000,
+			arrows: false,
+			pauseOnHover: true,
+			dots: true
 		});
 
 	
