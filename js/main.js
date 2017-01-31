@@ -29,7 +29,7 @@ $(document).ready(function() {
 			dots: true
 		});
 
-	
+
 	/*-----------------------------------------
  * Replace all SVG img with inline SVG
  -----------------------------------------*/
