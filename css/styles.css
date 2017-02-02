@@ -371,15 +371,18 @@ nav.header-nav {
     background: #faca36;
     color: #0a0a08; }
 
-.add-to-cart,
-.order-btn {
-  width: 150px;
+.add-to-cart {
+  color: #faca36;
+  width: 299px;
   margin: 0;
   padding: 0.625em 0em;
   font-weight: 400;
   border: 0;
   -webkit-border-radius: 0;
           border-radius: 0; }
+  .add-to-cart:hover {
+    color: #0a0a08;
+    background-color: #faca36; }
 
 .add-to-cart {
   background: #211a0b;
@@ -388,14 +391,6 @@ nav.header-nav {
   border-color: #e2e1e1;
   background: #211a0b;
   color: #e2e1e1; }
-
-.order-btn {
-  background: #faca36;
-  color: #0a0a08;
-  border-color: #0a0a08;
-  border-color: #0a0a08;
-  background: #faca36;
-  color: #0a0a08; }
 
 .btn-to-top {
   display: block;
@@ -880,24 +875,8 @@ section.products {
   color: #0a0a08; }
 
 .product-button-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   position: absolute;
   top: 361px; }
-
-.add-to-cart {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
-  .add-to-cart:hover {
-    width: 299px; }
-  .add-to-cart:hover + .order-btn {
-    opacity: 0; }
-
-.order-btn {
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
 
 .view-all {
   display: block;
@@ -1052,6 +1031,9 @@ section.contact-us {
 .contact-form,
 .contact-info {
   max-width: 50%; }
+  .contact-form button:hover,
+  .contact-info button:hover {
+    background-color: #dd991d; }
 
 .contact-info {
   text-align: left;
@@ -1195,7 +1177,7 @@ footer.container {
   background-color: #dd991d;
   background-repeat: no-repeat; }
   .social-icon:hover, .social-icon:focus {
-    background-color: #444645; }
+    background-color: #684911; }
   .social-icon:first-child {
     background-position: 5px -73px; }
   .social-icon:nth-child(2) {
