@@ -1,3 +1,7 @@
+/* Code by Serhii Borovskyi */
+/* www.serhii-css.com */
+/* Deisgn by juno team */
+/* Please refer to licenses */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -267,8 +271,7 @@ em, i {
     top: 12px; } }
 
 nav.header-nav {
-  font-size: 1.6875rem;
-  width: 430px; }
+  font-size: 1.6875rem; }
   nav.header-nav ul {
     display: -webkit-box;
     display: -webkit-flex;
@@ -294,7 +297,7 @@ nav.header-nav {
       nav.header-nav ul li.active a {
         color: #faca36; }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 741px) {
   nav.header-nav {
     display: block !important; } }
 
@@ -870,7 +873,7 @@ section.products {
   top: 277px;
   left: 8px;
   display: inline-block;
-  padding: 12px;
+  padding: 10px;
   font-size: 3.4rem;
   -webkit-border-radius: 50%;
           border-radius: 50%;
